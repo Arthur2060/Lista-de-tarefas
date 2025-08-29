@@ -1,0 +1,18 @@
+:root {
+    --plano-de-fundo: rgb(17, 35, 51);
+    --cor-secundaria: rgb(175, 167, 52);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--plano-de-fundo);
+    display: flex;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
